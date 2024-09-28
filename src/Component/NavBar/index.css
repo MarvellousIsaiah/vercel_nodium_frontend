@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFDFA;
+    border-bottom: 1px solid #FFFDFA;
+    position: absolute;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #252324;
+    margin-inline: 75px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    gap: 40px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #252324;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1dbf73;
+}
+
+.join-button {
+    padding: 10px 20px;
+    border: 1px solid #3ED625;
+    background-color: #FFFDFA;
+    color: #3ED625;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 75px;
+}
+
+.join-button:hover {
+    background-color: #3ED625;
+    color: #FFFDFA;
+}
+
+nav ul li a:hover {
+    color: #3ED625;
+}
+
+.MuiMenuItem-root:hover {
+    color: #3ED625 !important;
+}

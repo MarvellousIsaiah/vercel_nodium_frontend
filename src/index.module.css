@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Norican&display=swap');
+
+.font{
+    font-family: "Allura", sans-serif;
+}
+.divs> div{
+    display: block;
+}
+.invalid{
+    background-image: url("../src/assets/404.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99.9vh;
+}
+@keyframes __slideInLeft {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.tag:hover{
+    background: linear-gradient(to right,#E6E3EB 50%,#F9F1ED);
+}
+.current{
+    background: linear-gradient(to right,#E6E3EB 50%,#F9F1ED);
+}
+.background{
+    background: linear-gradient(to right,#F9F1ED 30%,#E6E3EB , #F9F1ED,#E6E3EB,#F9F1ED,#F9F1ED );
+}
+.slider{
+    animation: __slideInLeft 1s;
+}
+.underline{
+    text-decoration: underline;
+}
